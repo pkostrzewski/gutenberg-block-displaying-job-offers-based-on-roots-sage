@@ -1,0 +1,12 @@
+/* resources/styles/blocks/JobBlocks.css */
+
+.job-list {
+    margin: 20px 0;
+}
+
+.job-list .job-card {
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    background: #f9f9f9;
+}

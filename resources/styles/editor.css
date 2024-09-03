@@ -1,0 +1,107 @@
+/* editor.css */
+
+/* Ogólne stylizacje dla edytora Gutenberg */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Stylizacja dla bloków */
+.wp-block {
+    margin: 0 0 1.5rem 0;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+/* Stylizacja dla nagłówków */
+.wp-block-heading {
+    font-family: 'Georgia', serif;
+    color: #333;
+}
+
+/* Stylizacja dla akapitów */
+.wp-block-paragraph {
+    margin: 0 0 1rem 0;
+}
+
+/* Stylizacja dla obrazów */
+.wp-block-image img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Stylizacja dla przycisków */
+.wp-block-button {
+    text-align: center;
+}
+
+.wp-block-button .wp-block-button__link {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    background-color: #007cba;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.2s;
+}
+
+.wp-block-button .wp-block-button__link:hover {
+    background-color: #005a8d;
+}
+
+/* Stylizacja dla cytatów */
+.wp-block-quote {
+    border-left: 4px solid #007cba;
+    padding-left: 1rem;
+    margin: 0 0 1.5rem 0;
+    color: #555;
+    font-style: italic;
+}
+
+/* Stylizacja dla list */
+.wp-block-list {
+    margin: 0;
+    padding-left: 1.5rem;
+}
+
+.wp-block-list ul,
+.wp-block-list ol {
+    margin: 0;
+    padding: 0;
+}
+
+/* Stylizacja dla tabel */
+.wp-block-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.wp-block-table th,
+.wp-block-table td {
+    border: 1px solid #ddd;
+    padding: 0.75rem;
+    text-align: left;
+}
+
+/* Dostosowanie szerokości */
+.wp-block {
+    max-width: 100%;
+}
+.editor-visual-editor {
+    width: 90%;
+    margin: 0 auto;
+}
+.success {    
+    font-weight: 500;
+    padding: 16px;
+    font-size: 14px;
+    background-color: #cfffd7;
+    letter-spacing: 0.025rem;
+    border-left: 4px solid #2dba49;
+}
