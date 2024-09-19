@@ -1,15 +1,15 @@
 ## Project description:
 The project aims to present a Gutenberg block solution that allows managing job offers.
 
-<p align="center">The project used:</p>
+<p align="left">The project used:</p>
 
-<p align="center">
+<p align="left">
   <a href="https://roots.io/sage/">
     <img alt="Sage" src="https://cdn.roots.io/app/uploads/logo-sage.svg" height="50">
   </a>
 </p>
 
-<p align="center">Advanced WordPress starter theme with Tailwind CSS and Laravel Blade</p>
+<p align="left">Advanced WordPress starter theme with Tailwind CSS and Laravel Blade</p>
 
 ## Overview
 
